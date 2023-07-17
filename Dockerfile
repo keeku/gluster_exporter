@@ -35,3 +35,4 @@ COPY gluster_exporter /usr/bin/gluster_exporter
 #RUN /usr/bin/gluster-init.sh
 ENTRYPOINT /usr/bin/gluster-init.sh
 #ENTRYPOINT /bin/bash
+
